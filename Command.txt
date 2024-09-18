@@ -1,0 +1,15 @@
+docker -v 
+docker ps / docker ps --all
+docker run hello-world
+docker run busybox ping google.com
+docker stop (Container ID)
+docker pull
+docker start
+docker system prune (ลบ image ทั้งหมดทิ้ง)
+docker run nginx
+docker exec
+docker exec -it (container id) sh
+docker exec -it (container id) bash
+docker run -p 80:80 nginx
+docker run -d -p 80:80 nginx
+docker info
